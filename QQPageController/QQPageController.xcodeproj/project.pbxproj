@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		061B802119D0454F2C1122FB /* libPods-QQPageController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF9348ED786154C5DC356A0 /* libPods-QQPageController.a */; };
 		9B168BC422BA021B00BF8644 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B168BC322BA021B00BF8644 /* AppDelegate.m */; };
-		9B168BC722BA021B00BF8644 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B168BC622BA021B00BF8644 /* ViewController.m */; };
 		9B168BCA22BA021B00BF8644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B168BC822BA021B00BF8644 /* Main.storyboard */; };
 		9B168BCC22BA021C00BF8644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B168BCB22BA021C00BF8644 /* Assets.xcassets */; };
 		9B168BCF22BA021C00BF8644 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B168BCD22BA021C00BF8644 /* LaunchScreen.storyboard */; };
 		9B168BD222BA021C00BF8644 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B168BD122BA021C00BF8644 /* main.m */; };
 		9B168BDA22BA026F00BF8644 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B168BD922BA026F00BF8644 /* HomeViewController.m */; };
 		9B168BE022BA086300BF8644 /* XMChangePosterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B168BDF22BA086300BF8644 /* XMChangePosterViewController.m */; };
+		9B168BE322BA098700BF8644 /* XMPosterCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B168BE222BA098700BF8644 /* XMPosterCollectionViewController.m */; };
+		9B168BE622BA099300BF8644 /* XMPosterCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B168BE422BA099300BF8644 /* XMPosterCollectionViewCell.m */; };
+		9B168BEB22BA0A0600BF8644 /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B168BE822BA0A0600BF8644 /* 01.jpg */; };
+		9B168BEC22BA0A0600BF8644 /* 03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B168BE922BA0A0600BF8644 /* 03.jpg */; };
+		9B168BED22BA0A0600BF8644 /* 02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B168BEA22BA0A0600BF8644 /* 02.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,8 +27,6 @@
 		9B168BBF22BA021B00BF8644 /* QQPageController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQPageController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B168BC222BA021B00BF8644 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9B168BC322BA021B00BF8644 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9B168BC522BA021B00BF8644 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9B168BC622BA021B00BF8644 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9B168BC922BA021B00BF8644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B168BCB22BA021C00BF8644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B168BCE22BA021C00BF8644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -34,6 +36,13 @@
 		9B168BD922BA026F00BF8644 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		9B168BDE22BA086300BF8644 /* XMChangePosterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMChangePosterViewController.h; sourceTree = "<group>"; };
 		9B168BDF22BA086300BF8644 /* XMChangePosterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMChangePosterViewController.m; sourceTree = "<group>"; };
+		9B168BE122BA098700BF8644 /* XMPosterCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPosterCollectionViewController.h; sourceTree = "<group>"; };
+		9B168BE222BA098700BF8644 /* XMPosterCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPosterCollectionViewController.m; sourceTree = "<group>"; };
+		9B168BE422BA099300BF8644 /* XMPosterCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPosterCollectionViewCell.m; sourceTree = "<group>"; };
+		9B168BE522BA099300BF8644 /* XMPosterCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPosterCollectionViewCell.h; sourceTree = "<group>"; };
+		9B168BE822BA0A0600BF8644 /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
+		9B168BE922BA0A0600BF8644 /* 03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 03.jpg; sourceTree = "<group>"; };
+		9B168BEA22BA0A0600BF8644 /* 02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpg; sourceTree = "<group>"; };
 		DFF9348ED786154C5DC356A0 /* libPods-QQPageController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QQPageController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAB4944CA8297E45B973B799 /* Pods-QQPageController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQPageController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QQPageController/Pods-QQPageController.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,8 +102,7 @@
 				9B168BD822BA026F00BF8644 /* HomeViewController.h */,
 				9B168BD922BA026F00BF8644 /* HomeViewController.m */,
 				9B168BDB22BA084400BF8644 /* Poster */,
-				9B168BC522BA021B00BF8644 /* ViewController.h */,
-				9B168BC622BA021B00BF8644 /* ViewController.m */,
+				9B168BE722BA0A0600BF8644 /* Images */,
 				9B168BC822BA021B00BF8644 /* Main.storyboard */,
 				9B168BCB22BA021C00BF8644 /* Assets.xcassets */,
 				9B168BCD22BA021C00BF8644 /* LaunchScreen.storyboard */,
@@ -118,6 +126,8 @@
 			children = (
 				9B168BDE22BA086300BF8644 /* XMChangePosterViewController.h */,
 				9B168BDF22BA086300BF8644 /* XMChangePosterViewController.m */,
+				9B168BE122BA098700BF8644 /* XMPosterCollectionViewController.h */,
+				9B168BE222BA098700BF8644 /* XMPosterCollectionViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -125,8 +135,20 @@
 		9B168BDD22BA084400BF8644 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9B168BE522BA099300BF8644 /* XMPosterCollectionViewCell.h */,
+				9B168BE422BA099300BF8644 /* XMPosterCollectionViewCell.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		9B168BE722BA0A0600BF8644 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9B168BE822BA0A0600BF8644 /* 01.jpg */,
+				9B168BE922BA0A0600BF8644 /* 03.jpg */,
+				9B168BEA22BA0A0600BF8644 /* 02.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,8 +209,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B168BEC22BA0A0600BF8644 /* 03.jpg in Resources */,
+				9B168BED22BA0A0600BF8644 /* 02.jpg in Resources */,
 				9B168BCF22BA021C00BF8644 /* LaunchScreen.storyboard in Resources */,
 				9B168BCC22BA021C00BF8644 /* Assets.xcassets in Resources */,
+				9B168BEB22BA0A0600BF8644 /* 01.jpg in Resources */,
 				9B168BCA22BA021B00BF8644 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,7 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B168BC722BA021B00BF8644 /* ViewController.m in Sources */,
+				9B168BE322BA098700BF8644 /* XMPosterCollectionViewController.m in Sources */,
+				9B168BE622BA099300BF8644 /* XMPosterCollectionViewCell.m in Sources */,
 				9B168BD222BA021C00BF8644 /* main.m in Sources */,
 				9B168BE022BA086300BF8644 /* XMChangePosterViewController.m in Sources */,
 				9B168BC422BA021B00BF8644 /* AppDelegate.m in Sources */,
