@@ -72,6 +72,10 @@ static const NSInteger kPosterRowNumber = 2;        // 列数
 #pragma mark <UICollectionViewDelegate>
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     
+    NSDictionary *dict = @{
+                           @"url":@"https://www.xianmai88.com"
+                           };
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"XMPosterChangedNotification" object:nil userInfo:dict];
     [[UINavigationController currentNavigationController] popViewControllerAnimated:YES];
 }
 
