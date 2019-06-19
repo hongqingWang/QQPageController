@@ -8,6 +8,7 @@
 
 #import "XMPosterCollectionViewController.h"
 #import "XMPosterCollectionViewCell.h"
+#import "UINavigationController+Category.h"
 
 @interface XMPosterCollectionViewController ()
 
@@ -70,9 +71,8 @@ static const NSInteger kPosterRowNumber = 2;        // 列数
 
 #pragma mark <UICollectionViewDelegate>
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-
-    NSLog(@"%zd", indexPath.item);
-    [self.navigationController popViewControllerAnimated:YES];
+    
+    [[UINavigationController currentNavigationController] popViewControllerAnimated:YES];
 }
 
 @end

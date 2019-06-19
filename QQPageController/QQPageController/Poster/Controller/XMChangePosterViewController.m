@@ -43,10 +43,11 @@
 
 - (UIViewController *)pageController:(WMPageController *)pageController viewControllerAtIndex:(NSInteger)index {
     
-    if (index % 2 == 0) {
+    if (index % 3 == 0) {
         XMPosterCollectionViewController *collectionVc = [[XMPosterCollectionViewController alloc] init];
         return collectionVc;
     }
+    
     UIViewController *vc = [[UIViewController alloc] init];
     vc.view.backgroundColor = [UIColor redColor];
     return vc;
