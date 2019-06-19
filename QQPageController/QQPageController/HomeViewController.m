@@ -7,6 +7,7 @@
 //
 
 #import "HomeViewController.h"
+#import "XMChangePosterViewController.h"
 
 @interface HomeViewController ()
 
@@ -26,7 +27,8 @@
 #pragma mark - Events
 - (void)didClickButton:(UIButton *)button {
     
-    NSLog(@"dasda");
+    XMChangePosterViewController *vc = [[XMChangePosterViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 #pragma mark - SetupUI

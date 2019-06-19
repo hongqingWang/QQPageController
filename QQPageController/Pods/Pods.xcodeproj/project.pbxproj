@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		360E4A75B8D75E44BF807FB5F3D2D305 /* WMMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DC2FFFCCB7D7733EAB701D42225D52 /* WMMenuView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3B2D49CC517936F8EC50498102C082F3 /* WMMenuItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CCCC23E8F34F9B6E513BA6FF1B29130 /* WMMenuItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3E58E50191AB2807A17E1C60500063F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888156FA7EF8DE87950E8D5F409FB575 /* Foundation.framework */; };
+		43F23215945DAD434A3B6A9D76A4D0FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD88DCD5873E78C5D6177D17DD10EFFE /* CoreGraphics.framework */; };
+		5A1B87DCE5A6EAD3540A31E02737045F /* WMPageController.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9D1EE05D0A26570DD8D7151DA8BDB2 /* WMPageController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		63613DE8DA5BD65AFFB5B9B8FC591239 /* WMProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = F485853D23EFC50B3C84D7066102C477 /* WMProgressView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		64918282889F0111018CCA77B579DB49 /* WMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E188BF1D1C374C4120ADE5FA7E8702 /* WMProgressView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		89B7D0434DE3E6C0F2F487B154D96A44 /* WMMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = CB87A4E617BF1E39F3E54F801C65BA76 /* WMMenuView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B22B24B517EFC0F76C3E7D0C9471B708 /* WMScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A3179EEA437AE2AA56893268232141 /* WMScrollView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BF39568875F31EABD84007E45F744A10 /* WMPageController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6EA78941FAA4DCDC5E8562666C4212 /* WMPageController-dummy.m */; };
+		C49769901338E515260DC5D8DAB7EC30 /* WMMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D137967F85294D4E1E6B8732FA23961 /* WMMenuItem.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CBBA9701FA8E8399686938AB6E12BF28 /* UIViewController+WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6ED69E86370771DEBBF5B975CE2D552 /* UIViewController+WMPageController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CCA6F2ED41E836405B95CCEB71040895 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ACF330A72DC40E450388407F7DFB2F7 /* UIKit.framework */; };
+		D6375F39572D206DF895FF78E152CA83 /* Pods-QQPageController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAE7D8F6DBFE70B580AE195753B9EBA /* Pods-QQPageController-dummy.m */; };
+		D7E5BCDB8F324190FBB474E45FFD557B /* WMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A22948DEB35D16AA1BAD237D422F8A /* WMScrollView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E5B1F6B37F35E6C2D2F3566F8FA5E991 /* UIViewController+WMPageController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1179B3A466FC97415D91F933AC56759E /* UIViewController+WMPageController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F57818D6B139D47014AC1E6A0C39ACCA /* WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD29E71340113FA4A89A141768886BC6 /* WMPageController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED74E8A6B90A2C4EC8D1C8E578FC516A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D195AA8A84073EDC173B8BD2CD1F476;
+			remoteInfo = WMPageController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E9D2029BCE6AF614EAEC6EC783345DA /* Pods-QQPageController-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QQPageController-frameworks.sh"; sourceTree = "<group>"; };
+		0FD0C6823D8508584BC33D45AC44C0B9 /* libWMPageController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWMPageController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1179B3A466FC97415D91F933AC56759E /* UIViewController+WMPageController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+WMPageController.h"; path = "WMPageController/UIViewController+WMPageController.h"; sourceTree = "<group>"; };
+		1A631124A15BB4776FB53649B251D4DB /* Pods-QQPageController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QQPageController.debug.xcconfig"; sourceTree = "<group>"; };
+		1ACF330A72DC40E450388407F7DFB2F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1EAE7D8F6DBFE70B580AE195753B9EBA /* Pods-QQPageController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QQPageController-dummy.m"; sourceTree = "<group>"; };
+		23D9016A0A026711B0DF850FD2DC2EE1 /* Pods-QQPageController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QQPageController.release.xcconfig"; sourceTree = "<group>"; };
+		28E188BF1D1C374C4120ADE5FA7E8702 /* WMProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMProgressView.m; path = WMPageController/WMMenuView/WMProgressView.m; sourceTree = "<group>"; };
+		37A22948DEB35D16AA1BAD237D422F8A /* WMScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMScrollView.m; path = WMPageController/WMMenuView/WMScrollView.m; sourceTree = "<group>"; };
+		4445FDAFBD2E2640C323F25EAD4DAB61 /* Pods-QQPageController-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QQPageController-acknowledgements.markdown"; sourceTree = "<group>"; };
+		66DC2FFFCCB7D7733EAB701D42225D52 /* WMMenuView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMMenuView.m; path = WMPageController/WMMenuView/WMMenuView.m; sourceTree = "<group>"; };
+		6CCCC23E8F34F9B6E513BA6FF1B29130 /* WMMenuItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMMenuItem.h; path = WMPageController/WMMenuView/WMMenuItem.h; sourceTree = "<group>"; };
+		6D137967F85294D4E1E6B8732FA23961 /* WMMenuItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMMenuItem.m; path = WMPageController/WMMenuView/WMMenuItem.m; sourceTree = "<group>"; };
+		7A2807F802472FB9042E6F363ED79572 /* WMPageController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WMPageController.xcconfig; sourceTree = "<group>"; };
+		87842EA8393F72DAB528015BE942FFDF /* WMPageController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WMPageController-prefix.pch"; sourceTree = "<group>"; };
+		888156FA7EF8DE87950E8D5F409FB575 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6ED69E86370771DEBBF5B975CE2D552 /* UIViewController+WMPageController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+WMPageController.m"; path = "WMPageController/UIViewController+WMPageController.m"; sourceTree = "<group>"; };
+		B455129DE590F4A819F9197294CE1C9D /* libPods-QQPageController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QQPageController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8FF34A489E9AAA2AF46F51F7EFA757B /* Pods-QQPageController-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QQPageController-resources.sh"; sourceTree = "<group>"; };
+		BD6EA78941FAA4DCDC5E8562666C4212 /* WMPageController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WMPageController-dummy.m"; sourceTree = "<group>"; };
+		BD88DCD5873E78C5D6177D17DD10EFFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		C5581447BF42C613401E4C3A600F1520 /* Pods-QQPageController-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QQPageController-acknowledgements.plist"; sourceTree = "<group>"; };
+		CB87A4E617BF1E39F3E54F801C65BA76 /* WMMenuView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMMenuView.h; path = WMPageController/WMMenuView/WMMenuView.h; sourceTree = "<group>"; };
+		D0A3179EEA437AE2AA56893268232141 /* WMScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMScrollView.h; path = WMPageController/WMMenuView/WMScrollView.h; sourceTree = "<group>"; };
+		DB9D1EE05D0A26570DD8D7151DA8BDB2 /* WMPageController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMPageController.h; path = WMPageController/WMPageController.h; sourceTree = "<group>"; };
+		DD29E71340113FA4A89A141768886BC6 /* WMPageController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMPageController.m; path = WMPageController/WMPageController.m; sourceTree = "<group>"; };
+		F485853D23EFC50B3C84D7066102C477 /* WMProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMProgressView.h; path = WMPageController/WMMenuView/WMProgressView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A55BF13CB7490523611D36ABE2B2F86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F23215945DAD434A3B6A9D76A4D0FF /* CoreGraphics.framework in Frameworks */,
+				3E58E50191AB2807A17E1C60500063F7 /* Foundation.framework in Frameworks */,
+				CCA6F2ED41E836405B95CCEB71040895 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FD5AED8AE18B06EC70F36BD94BFA069 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0FEB5BC00BD5AFA53416A3538FFE0E3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BF59227AC86028A2183FD612D7F03E9 /* Pods-QQPageController */ = {
+			isa = PBXGroup;
+			children = (
+				4445FDAFBD2E2640C323F25EAD4DAB61 /* Pods-QQPageController-acknowledgements.markdown */,
+				C5581447BF42C613401E4C3A600F1520 /* Pods-QQPageController-acknowledgements.plist */,
+				1EAE7D8F6DBFE70B580AE195753B9EBA /* Pods-QQPageController-dummy.m */,
+				0E9D2029BCE6AF614EAEC6EC783345DA /* Pods-QQPageController-frameworks.sh */,
+				B8FF34A489E9AAA2AF46F51F7EFA757B /* Pods-QQPageController-resources.sh */,
+				1A631124A15BB4776FB53649B251D4DB /* Pods-QQPageController.debug.xcconfig */,
+				23D9016A0A026711B0DF850FD2DC2EE1 /* Pods-QQPageController.release.xcconfig */,
+			);
+			name = "Pods-QQPageController";
+			path = "Target Support Files/Pods-QQPageController";
+			sourceTree = "<group>";
+		};
+		3473D6D10DB628DD7506891DA6ABDACE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94A0CB07E70024C2FBA4A498F6AEC4DF /* WMPageController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		417DDA542894E91379F50E971544CF67 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BF59227AC86028A2183FD612D7F03E9 /* Pods-QQPageController */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6AD289313A7EA23A298F10F30C113744 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A2807F802472FB9042E6F363ED79572 /* WMPageController.xcconfig */,
+				BD6EA78941FAA4DCDC5E8562666C4212 /* WMPageController-dummy.m */,
+				87842EA8393F72DAB528015BE942FFDF /* WMPageController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WMPageController";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				3473D6D10DB628DD7506891DA6ABDACE /* Pods */,
+				B37BABCEC5400A55DC2DE923DB8123C1 /* Products */,
+				417DDA542894E91379F50E971544CF67 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		94A0CB07E70024C2FBA4A498F6AEC4DF /* WMPageController */ = {
+			isa = PBXGroup;
+			children = (
+				1179B3A466FC97415D91F933AC56759E /* UIViewController+WMPageController.h */,
+				A6ED69E86370771DEBBF5B975CE2D552 /* UIViewController+WMPageController.m */,
+				6CCCC23E8F34F9B6E513BA6FF1B29130 /* WMMenuItem.h */,
+				6D137967F85294D4E1E6B8732FA23961 /* WMMenuItem.m */,
+				CB87A4E617BF1E39F3E54F801C65BA76 /* WMMenuView.h */,
+				66DC2FFFCCB7D7733EAB701D42225D52 /* WMMenuView.m */,
+				DB9D1EE05D0A26570DD8D7151DA8BDB2 /* WMPageController.h */,
+				DD29E71340113FA4A89A141768886BC6 /* WMPageController.m */,
+				F485853D23EFC50B3C84D7066102C477 /* WMProgressView.h */,
+				28E188BF1D1C374C4120ADE5FA7E8702 /* WMProgressView.m */,
+				D0A3179EEA437AE2AA56893268232141 /* WMScrollView.h */,
+				37A22948DEB35D16AA1BAD237D422F8A /* WMScrollView.m */,
+				6AD289313A7EA23A298F10F30C113744 /* Support Files */,
+			);
+			path = WMPageController;
+			sourceTree = "<group>";
+		};
+		B37BABCEC5400A55DC2DE923DB8123C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B455129DE590F4A819F9197294CE1C9D /* libPods-QQPageController.a */,
+				0FD0C6823D8508584BC33D45AC44C0B9 /* libWMPageController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0FEB5BC00BD5AFA53416A3538FFE0E3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BD88DCD5873E78C5D6177D17DD10EFFE /* CoreGraphics.framework */,
+				888156FA7EF8DE87950E8D5F409FB575 /* Foundation.framework */,
+				1ACF330A72DC40E450388407F7DFB2F7 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2CE1F51E76DDF6590EE0F428135303E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B1F6B37F35E6C2D2F3566F8FA5E991 /* UIViewController+WMPageController.h in Headers */,
+				3B2D49CC517936F8EC50498102C082F3 /* WMMenuItem.h in Headers */,
+				89B7D0434DE3E6C0F2F487B154D96A44 /* WMMenuView.h in Headers */,
+				5A1B87DCE5A6EAD3540A31E02737045F /* WMPageController.h in Headers */,
+				63613DE8DA5BD65AFFB5B9B8FC591239 /* WMProgressView.h in Headers */,
+				B22B24B517EFC0F76C3E7D0C9471B708 /* WMScrollView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0AB0CF2A4F0C943FC088ED8F2078000 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2D195AA8A84073EDC173B8BD2CD1F476 /* WMPageController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BF68A1B49D92416EA1639B4386824A2 /* Build configuration list for PBXNativeTarget "WMPageController" */;
+			buildPhases = (
+				2CE1F51E76DDF6590EE0F428135303E5 /* Headers */,
+				E7689AD65E6E850DE2674B0930419D06 /* Sources */,
+				2A55BF13CB7490523611D36ABE2B2F86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WMPageController;
+			productName = WMPageController;
+			productReference = 0FD0C6823D8508584BC33D45AC44C0B9 /* libWMPageController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C2CB0990A8BF0E3D88E20B260D085913 /* Pods-QQPageController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F22D9D1832A746860FE879C7B173A579 /* Build configuration list for PBXNativeTarget "Pods-QQPageController" */;
+			buildPhases = (
+				D0AB0CF2A4F0C943FC088ED8F2078000 /* Headers */,
+				8628F4FB3E8C29193D778E90B66BFECD /* Sources */,
+				9FD5AED8AE18B06EC70F36BD94BFA069 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				092095F90000310845E81E456D5EA15A /* PBXTargetDependency */,
+			);
+			name = "Pods-QQPageController";
+			productName = "Pods-QQPageController";
+			productReference = B455129DE590F4A819F9197294CE1C9D /* libPods-QQPageController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B37BABCEC5400A55DC2DE923DB8123C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2CB0990A8BF0E3D88E20B260D085913 /* Pods-QQPageController */,
+				2D195AA8A84073EDC173B8BD2CD1F476 /* WMPageController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8628F4FB3E8C29193D778E90B66BFECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6375F39572D206DF895FF78E152CA83 /* Pods-QQPageController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7689AD65E6E850DE2674B0930419D06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBBA9701FA8E8399686938AB6E12BF28 /* UIViewController+WMPageController.m in Sources */,
+				C49769901338E515260DC5D8DAB7EC30 /* WMMenuItem.m in Sources */,
+				360E4A75B8D75E44BF807FB5F3D2D305 /* WMMenuView.m in Sources */,
+				BF39568875F31EABD84007E45F744A10 /* WMPageController-dummy.m in Sources */,
+				F57818D6B139D47014AC1E6A0C39ACCA /* WMPageController.m in Sources */,
+				64918282889F0111018CCA77B579DB49 /* WMProgressView.m in Sources */,
+				D7E5BCDB8F324190FBB474E45FFD557B /* WMScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		092095F90000310845E81E456D5EA15A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WMPageController;
+			target = 2D195AA8A84073EDC173B8BD2CD1F476 /* WMPageController */;
+			targetProxy = ED74E8A6B90A2C4EC8D1C8E578FC516A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7CA149DD5762D631B25417EFD7A8B587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23D9016A0A026711B0DF850FD2DC2EE1 /* Pods-QQPageController.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83C955BD406C3EE966F23EC36EC34E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A2807F802472FB9042E6F363ED79572 /* WMPageController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WMPageController/WMPageController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WMPageController;
+				PRODUCT_NAME = WMPageController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CAAD1F9FA71E1302B05D99F8FFB373F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8EF91EA1D91F963806D15AE3F21A100F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A2807F802472FB9042E6F363ED79572 /* WMPageController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WMPageController/WMPageController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WMPageController;
+				PRODUCT_NAME = WMPageController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8C05AFFCBC58AAE08F58277193B98F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A631124A15BB4776FB53649B251D4DB /* Pods-QQPageController.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFF583FA7420DC0AD49940362019A032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BF68A1B49D92416EA1639B4386824A2 /* Build configuration list for PBXNativeTarget "WMPageController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C955BD406C3EE966F23EC36EC34E4A /* Debug */,
+				8EF91EA1D91F963806D15AE3F21A100F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF583FA7420DC0AD49940362019A032 /* Debug */,
+				8CAAD1F9FA71E1302B05D99F8FFB373F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F22D9D1832A746860FE879C7B173A579 /* Build configuration list for PBXNativeTarget "Pods-QQPageController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8C05AFFCBC58AAE08F58277193B98F8 /* Debug */,
+				7CA149DD5762D631B25417EFD7A8B587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
