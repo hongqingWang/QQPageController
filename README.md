@@ -1,2 +1,4 @@
 # QQPageController
 基于WMPageController的Demo演练
+
+![QQPageController.gif](https://upload-images.jianshu.io/upload_images/2069062-dd077bbc201576a2.gif?imageMogr2/auto-orient/strip)

@@ -47,6 +47,10 @@
         XMPosterCollectionViewController *collectionVc = [[XMPosterCollectionViewController alloc] init];
         return collectionVc;
     }
+    if (index % 3 == 1) {
+        UITableViewController *tableViewVc = [[UITableViewController alloc] init];
+        return tableViewVc;
+    }
     
     UIViewController *vc = [[UIViewController alloc] init];
     vc.view.backgroundColor = [UIColor redColor];
